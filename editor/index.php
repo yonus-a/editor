@@ -1,6 +1,6 @@
 <?php
   $dir_path = dirname(__DIR__);
-  $ignore_files = ['.', '..', 'editor'];
+  $ignore_files = ['.', '..', 'editor', '.git'];
   
   if(isset($_GET['file'])) {
 
